@@ -1,0 +1,55 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div id="outer-container">
+        <div class="main-container">
+            <div class="hero-section">
+                <h1 id="main-title">Invoice Creator</h1>
+                <h3 id="subtitle">Thanks for choosing GoodCreate, INC</h3>
+            </div>
+            <div id="button-wrapper">
+                <button class="three-buttons" id="wash-car-btn">Wash Car: $10</button>
+                <button class="three-buttons" id="mow-lawn-btn">Mow Lawn: $20</button>
+                <button class="three-buttons" id="pull-weeds-btn">Pull Weeds: $30</button>
+            </div>
+            <div id="output-task-total">
+                <h6>TASK</h6>
+                <h6>TOTAL</h6>
+            </div>
+            <div id="service-price-wrapper">
+                <div id="service-container">
+                    <p id="wash-car"></p>
+                    <p id="mow-lawn"></p>
+                    <p id="pull-weeds"></p>
+                </div>
+                <div id="price-container">
+                    <p id="wash-price"></p> 
+                    <p id="mow-price"></p> 
+                    <p id="pull-price"></p> 
+                </div>
+            </div>
+            <div id="partition">
+            </div>
+            <div id="notes-total-amount">
+                <h6>NOTES</h6>
+                <h6>TOTAL AMOUNT</h6>
+            </div>
+            <div class="forms-of-payment">
+                <p>We accept cash, credit card, or PayPal</p>
+                <p id="output-amount"></p>
+            </div>
+            <div id="send-invoice-section">
+                <button id="send-invoice-btn">
+                    <img id="icon" src="Mail.png">
+                    Send Invoice
+                </button>
+                <p id="thank-you-note"></p>
+            </div>
+        </div>
+      </div>
+      <button id="change-mode">Change mode</button>
+        <script src="index.js"></script>
+    </body>
+</html>
