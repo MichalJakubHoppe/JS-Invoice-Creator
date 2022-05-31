@@ -199,7 +199,7 @@ h3{
 }
 
 #thank-you-note {
-    margin-top: 30px;
+    margin-top: 50px;
     color: #FFFFFF;
 }
 
@@ -209,7 +209,7 @@ h3{
 }
 
 #change-mode {
-    margin: 20px 250px;
+    margin: 20px auto;
     background: linear-gradient(to bottom, #4CB5AE,#3A69D2);
     border-radius: 6px;
     padding: 8px 30px;
