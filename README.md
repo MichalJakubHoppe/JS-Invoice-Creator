@@ -1,7 +1,7 @@
 JavaScript- Invoice Creator App
 A simple Invoice Creator App built in (pure) Javascript that allows the user to sum up the listed services.
 
-👉 Check this LIVE demo: https://
+👉 Check this LIVE demo: (https://michaljakubhoppe.github.io/JS-Invoice-Creator/)
 
 👉 List of Contents
 About
